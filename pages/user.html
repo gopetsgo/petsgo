@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./layout/head'); -%>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <div class="top">
+        <h2 class="title">會員專區</h2>
+        <hr>
+      </div>
+      
+      <div class="main">
+        <ul class="userList">
+          <li class="userListItem"><a href="#" class="userLink">會員資料</a></li>
+          <li class="userListItem"><a href="#" class="userLink">我的活動</a></li>
+          <li class="userListItem"><a href="#" class="userLink">我的地方</a></li>
+          <li class="userListItem"><a href="#" class="userLink">登出</a></li>
+        </ul>
+        <div class="right">
+          <div class="userInfo">
+          <img src="../assets/images/userSmall.png" alt="userAvatar" class="userAvatar">
+          <form action="" class="userForm">
+            <div class="formInputs">
+              <div class="inputGroup">
+                <label for="name">姓名</label>
+                <input id="name" type="text">
+              </div>
+              <div class="inputGroup">
+                <label for="nickName">暱稱</label>
+                <input id="nickName" type="text">
+              </div>
+              <div class="inputGroup col-2">
+                <label for="email">電子郵件</label>
+                <input type="email">
+              </div>
+              <div class="inputGroup">
+                <label for="passwordConfirm">密碼</label>
+                <input id="password" type="password">
+              </div>
+              <div class="inputGroup">
+                <label for="passwordConfirm">確認密碼</label>
+                <input id="passwordConfirm" type="password">
+              </div>
+            </div>
+          </form>
+        </div>
+          <div class="inputBtns">
+              <button class="inputBtn inputBtnSave" type="submit">儲存</button>
+              <button class="inputBtn inputBtnCancel" type="submit">取消</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- </div> -->
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

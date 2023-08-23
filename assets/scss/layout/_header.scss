@@ -1,0 +1,21 @@
+.wrap {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.logo {
+  width: 280px;
+  height: 75px;
+}
+
+.header {
+  padding-top: 45px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.navList {
+  display: flex;
+}
