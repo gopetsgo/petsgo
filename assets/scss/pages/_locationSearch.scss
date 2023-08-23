@@ -1,0 +1,81 @@
+//body{
+    .backgroundColor{
+       background-color:#FFF3B4;
+       width: 100%;
+       height: 940px;
+       position: absolute;
+       z-index: -1;
+       background-image: url('/assets/images/locationSearch/Group\ 213.png');
+        background-repeat: no-repeat;
+        background-position-x: 80%;
+        background-position-y: 120px;
+    }
+//header
+header {
+    max-width: 1296px;
+    margin: 0 auto;
+    h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 124px;
+    padding-bottom: 24px;
+    }
+    .tags{
+        padding-bottom: 372px;
+    }
+}
+//main
+.locas{
+    max-width: 1296px;
+    margin: 0 auto;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 64px;
+    }
+}
+// list ul
+.list{
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 116px;
+    ul{
+        max-width: 380px;
+        .photo{
+            position: relative;
+        }
+        .tags{
+            position:absolute;
+            top:225px;
+            left: 200px;
+            display: flex;
+            gap: 16px;
+            span{
+                background-color: #fff;
+                padding: 10px 12px;
+                outline:3px solid #9AD9C2;
+                text-align: center;
+            }
+        }
+        .heart{
+            position: absolute;
+            top: 12px;
+            left:338px;
+        }
+        h3{
+            font-size: 24px;
+            color: #F26835;
+            font-weight: bold;
+            padding: 16px 0;
+        }
+        .info{
+            gap: 12px;
+            align-items: center;
+            padding-bottom: 16px;
+        }
+        p{
+            padding-top: 16px;
+            border-top: 1px solid #000;
+        }
+    }
+}

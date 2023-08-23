@@ -1,4 +1,30 @@
-// .footer{
-//   background: #69F0AE;
-//   font-size: 64px;
-// }
+footer{
+  background-color: #F2DA5E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 104px 120px;
+  .account, .activity, .explore{
+    text-align: center;
+  }
+  h5{
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  a 
+  { 
+    display: block;
+    margin-bottom: 12px;
+    img{
+    width:298px;
+  }
+}
+  .media {
+    display: flex;
+    gap: 33px;
+    img{
+    width: 84px;
+    }
+  }
+}

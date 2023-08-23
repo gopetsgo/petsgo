@@ -1,0 +1,314 @@
+*{
+    font-family:'PingFang TC';
+}
+p{
+    line-height: 1.75;
+}
+// general 
+.df{
+    display: flex;
+}
+.m0-a{
+    margin: 0 auto;
+}
+.orange{
+    background-color: #F26835;
+}
+.pink{
+    background-color: #F9A5A5;
+}
+.yellow{
+    background-color: #F2DA5E;
+}
+.tiffanny{
+    background-color: #9AD9C2;
+}
+.white{
+    color: #fff;
+}
+//button
+.button{
+    padding: 16px 0;
+    font-size: 24px;
+    width: 366px;
+    border-radius: 32px;
+    background-color: #F26835;
+    text-align: center;
+}
+//background circle
+.background{
+    overflow: hidden;
+    position: relative;
+}
+.circle{
+    width:1115px;
+    height:1115px;
+    border-radius: 100%;
+    background-color: #FFF3B4;
+    z-index: -1;
+    position:absolute;
+    top: -214px;
+    right: -200px;
+}
+.cloud1{
+    width:838px;
+    height:838px;
+    border-radius: 100%;
+    background-color: #FFD9D8;
+    z-index: -1;
+    position:absolute;
+    top: 400px;
+    left: -700px;
+}
+.cloud2{
+    width:838px;
+    height:838px;
+    border-radius: 100%;
+    background-color: #FFD9D8;
+    z-index: -1;
+    position:absolute;
+    top: 800px;
+    left: -360px;
+}
+//background cloud
+//header
+header{
+    max-width: 1296px;
+    margin-bottom: 69px;
+    .basicInfo{
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 0;
+    h2{
+        font-size: 60px;
+        color: #F26835;
+    }
+    .subscripted{
+        gap: 16px;
+        img{
+            width: 30px;
+            vertical-align: top;
+        }
+    }
+    .tags{
+        gap: 16px;
+        padding-bottom: 0;
+        p{
+            outline: 3px solid #9AD9C2;
+            background-color: #fff;
+            padding: 10px 12px;
+        }
+    }
+}
+.description{
+    justify-content: space-between;
+    .text{
+        padding: 36px;
+        width: 600px;
+        background-color: #fff;
+    }
+    .contact{
+        padding: 36px;
+        border: 1px solid #000;
+        width: 600px;
+        background-color: #fff;
+        p{
+            margin: 0;
+            a{
+            color: #F29544;
+            }
+        }
+        .functions{
+            gap: 64px;
+            margin-top: 60px;
+            a{
+                width: 150px;
+                background-color: #F26835;
+                color: #fff;
+                line-height: 4;
+                text-align: center;
+            }
+        }
+    }
+}
+}
+//triangleL
+.triangleL{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 44px 76px 44px;
+border-color: transparent transparent #FFF3B4 transparent;
+margin-top: 72px;
+}
+//main
+.details{
+    background-color: #FFF3B4;
+    border-radius: 0px 400px;
+    .wrapper{
+    max-width:1296px;
+    padding: 76px 0;
+    .rate{
+        .triangleO{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width:  22.5px 32px 22.5px 0;
+            margin-right: -20px;
+            border-color: transparent #F26835 transparent transparent;
+        }
+        .triangleP{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width:  22.5px 32px 22.5px 0;
+            margin-right: -20px;
+            border-color: transparent #F9A5A5 transparent transparent;
+        }
+        .triangleY{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width:  22.5px 32px 22.5px 0;
+            margin-right: -20px;
+            border-color: transparent #F2DA5E transparent transparent;
+        }
+        .triangleT{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width:  22.5px 32px 22.5px 0;
+            margin-right: -20px;
+            border-color: transparent #9AD9C2 transparent transparent;
+        }
+        .rating{
+            align-items: center;
+            margin-bottom: 80px;
+            img{
+                margin-right: 20px;
+            }
+        }
+        .user{
+            gap: 32px;
+            border-bottom: 1px solid #707070;
+            padding-bottom: 80px;
+            padding-top: 40px;
+            h5{
+                font-size: 24px;
+                margin: 0;
+            }
+            p{
+                margin-left: 16px;
+                color: #FF0000;
+            }
+            // input和label之間有個間距未消除
+            form{
+                input{
+                    width: 960px;
+                    padding: 16px 0;
+                    border: 1px solid #707070;
+                    border-radius: 8px;
+                    text-indent: 16px;
+                }
+                label{
+                    padding:16px 18px;
+                }
+            }
+        }
+        .others h3{
+            font-size: 48px;
+            margin: 65px 0;
+            font-weight: bold;
+        }
+        .other{
+            border-radius: 69px;
+            padding: 26px 76px;
+            align-items: center;
+            p{
+                margin: 0;
+            }
+            h5{
+                font-size: 24px;
+                margin: 0;
+                margin-bottom: 16px;
+                img{
+                    margin-left: 40px;
+                }
+            }
+            .ratingTitle{
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+    }
+}
+//recommendPlace
+.recommendPlace{
+    max-width: 1296px;
+    padding: 66px 0;
+    h3{
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .slide{
+        justify-content: space-between;
+        align-items:baseline;
+        div{
+            text-align: center;
+            img{
+                margin-bottom: 24px;
+            }
+            h5{
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+            h6 img{
+                margin: 0;
+                margin-right: 12px;
+            }
+        }
+    }
+}
+//newActivity
+.newActivity{
+    max-width: 1296px;
+    margin-bottom: 116px;
+    h3{
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .activities{
+        justify-content: space-between;
+        margin-bottom: 72px;
+        ul{
+            width: 380px;
+            li{
+            h5{
+                font-size: 24px;
+                color: #F26835;
+                font-weight: bold;
+                margin: 16px 0;
+            }
+            h6{
+                margin-right: 12px;
+                img{
+                    margin-right: 12px;
+                }
+            }
+            span{
+                margin-left: 12px;
+            }
+            p{
+                border-top: 1px solid #707070;
+                padding-top: 12px;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+}

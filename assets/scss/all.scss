@@ -1,9 +1,9 @@
-@import 'reset.scss';
+@import './base/reset.scss';
 
-@import './layout/header.scss';
+@import './layout/navSearch.scss';
+@import './layout/nav.scss';
+@import './layout/callToAction.scss';
 @import './layout/footer.scss';
 
-
-@import './pages/index.scss';
-@import './pages/user.scss';
-
+@import './pages/locationSearch.scss';
+@import './pages/location.scss';
