@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./layout/head'); -%>
+  <body>
+    <!-- <%- include('./layout/header'); -%> -->
+    <%- include('./layout/nav'); -%>
+    <div class="container">
+      <div class="top">
+        <h2 class="title">會員專區</h2>
+        <hr>
+      </div>
+      
+      <div class="main">
+        <ul class="userList">
+          <li class="userListItem"><a href="./user.html" class="userLink">會員資料</a></li>
+          <li class="userListItem"><a href="#" class="userLink">我的活動</a></li>
+          <li class="userListItem"><a href="./userPlace.html" class="userLink">我的地方</a></li>
+          <li class="userListItem"><a href="#" class="userLink">登出</a></li>
+        </ul>
+        <div class="userEventRight">
+            <div class="userEvents">
+                <ul class="userEventTags"></ul>
+                <ul class="userEventsList">
+                    <li class="userEventItem">
+                        <img src="https://images.unsplash.com/photo-1558929996-da64ba858215?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="dogs" class="userEventItemImg">
+                        <div class="userEventInfo">
+                            <h2 class="userEventTitle">夏夜晚風草地派對</h2>
+                            <p class="userEventTime">2023/7/23(日) 18:30~21:00</p>
+                            <div class="userEventLocation">
+                                <img class="userEventLocationIcon" src="../assets/images/location.png" alt="locationIcon">
+                                <p class="userEventAddress">嘉義綠映水漾公園(寵物公園)</p>
+                            </div>
+                        </div>
+                        <div class="userEventBtns">
+                            <a href="#" class="userEventBtn">編輯活動</a>  
+                        </div>
+                    </li>
+                    <li class="userEventItem">
+                        <img src="https://images.unsplash.com/photo-1558929996-da64ba858215?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="dogs" class="userEventItemImg">
+                        <div class="userEventInfo">
+                            <h2 class="userEventTitle">夏夜晚風草地派對</h2>
+                            <p class="userEventTime">2023/7/23(日) 18:30~21:00</p>
+                            <div class="userEventLocation">
+                                <img class="userEventLocationIcon" src="../assets/images/location.png" alt="locationIcon">
+                                <p class="userEventAddress">嘉義綠映水漾公園(寵物公園)</p>
+                            </div>
+                        </div>
+                        <div class="userEventBtns">
+                            <a href="#" class="userEventBtn">編輯活動</a>  
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+  
+
+  <%- include('./layout/footer'); -%>
+
+  <script type="module" src="../main.js"></script>
+</body>
+</html>
