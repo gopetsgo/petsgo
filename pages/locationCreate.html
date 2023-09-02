@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('./layout/nav'); -%>
+    <div class="locationC">
+        <h1>增加地點</h1>
+        <form>
+            <div class="df aic mb-24">
+                <label>地點名稱</label>
+                <input type="text" placeholder="輸入店家、景點名稱" class="borderBox">
+            </div>
+            <div class="df aic mb-24">
+                <div class="df aic mr-24">
+                    <label>開放時間</label>
+                    <div class="df aic borderBox">
+                        <input type="text" placeholder="平日" class="b-none">
+                        <img src="/assets/images/locationCreate/Group 256.svg" alt="selection" class="mr-12">
+                    </div>
+                </div>
+                <div class="df aic flex-glow">
+                    <label>開放時段</label>
+                    <input type="text" placeholder="e.g. 11:00~19:00" class="borderBox">
+                </div>
+            </div>
+            <div class="df aic mb-24">
+                <div class="df aic mr-24">
+                    <label>地點縣市</label>
+                    <div class="df aic borderBox">
+                        <input type="text" placeholder="選取縣市" class="b-none">
+                        <img src="/assets/images/locationCreate/Group 256.svg" alt="selection" class="mr-12">
+                    </div>
+                </div>
+                <div class="df aic mr-24">
+                    <label>地點區域</label>
+                    <div class="df aic borderBox">
+                        <input type="text" placeholder="選取區域" class="b-none">
+                        <img src="/assets/images/locationCreate/Group 256.svg" alt="selection" class="mr-12">
+                    </div>
+                </div>
+            </div>
+            <div class="df aic mb-24">
+                <label>地點地址</label>
+                <input type="text" placeholder="輸入地點地址" class="borderBox">
+            </div>
+            <div class="df aic mb-24">
+                <div class="df aic mr-24 flex-glow">
+                    <label>聯絡電話</label>
+                    <input type="text" placeholder="選填" class="borderBox">
+                </div>
+                <div class="df aic">
+                    <label>上傳照片</label>
+                    <div class="df aic borderBox overflow-h">
+                        <img src="/assets/images/locationCreate/Icon awesome-plus-circle-1.svg" alt="selection" class="ml-12">
+                        <input type="text" placeholder="選取區域" class="b-none">
+                    </div>
+                </div>
+            </div>
+            <div class="df aic mb-24">
+                <label>官方網址</label>
+                <input type="text" placeholder="選填" class="borderBox">
+            </div>
+            <div>
+            <div class="df aic mb-24">
+                <div>
+                    <label>關鍵字</label>
+                </div>
+                <div class="df aic borderBox overflow-h flex-glow">
+                    <img src="/assets/images/locationCreate/Icon awesome-plus-circle-2.svg" alt="selection" class="ml-12">
+                    <input type="text" placeholder="增加標籤" class="b-none">
+                </div>
+            </div>
+                <p class="gray df jce mb-40">推薦標籤：店鋪、咖啡廳、素食、大型犬、停車場 etc.</p>
+            </div>
+            <input type="text" placeholder="店家簡介(限140字)" class="description mb-24">
+            <div class="df aic jcc gap-44">
+                <a href="#" class="btn btn-orange">儲存</a>
+                <a href="#" class="btn btn-gray">取消</a>
+            </div>
+        </form>
+    </div>
+
+
+    <%- include('./layout/callToAction'); -%>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+</body>
+</html>

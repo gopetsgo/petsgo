@@ -1,5 +1,37 @@
-//body{
-    .backgroundColor{
+//general
+.locaS p{
+    line-height: 1.75;
+}
+.locaS img{
+    width: auto;
+}
+// general 
+.locaS .df{
+    display: flex;
+}
+.locaS .m0-a{
+    margin: 0 auto;
+}
+.locaS .m-0{
+    margin: 0;
+}
+.locaS .orange{
+    background-color: #F26835;
+}
+.locaS .pink{
+    background-color: #F9A5A5;
+}
+.locaS .yellow{
+    background-color: #F2DA5E;
+}
+.locaS .tiffanny{
+    background-color: #9AD9C2;
+}
+.locaS .white{
+    color: #fff;
+}
+//body
+.backgroundColorLocaS{
        background-color:#FFF3B4;
        width: 100%;
        height: 940px;
@@ -11,7 +43,7 @@
         background-position-y: 120px;
     }
 //header
-header {
+header.locaS  {
     max-width: 1296px;
     margin: 0 auto;
     h1{
@@ -25,17 +57,19 @@ header {
     }
 }
 //main
-.locas{
+main{
     max-width: 1296px;
     margin: 0 auto;
+}
+// list ul
+.locaS div{
     h2{
         font-size: 48px;
         font-weight: bold;
         margin-bottom: 64px;
     }
 }
-// list ul
-.list{
+.locaS div .list{
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 116px;
