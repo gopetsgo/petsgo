@@ -1,10 +1,11 @@
 // general
-a{
+nav a{
     text-decoration: none;
     color: #000;
 }
-img{
+nav img{
     vertical-align: middle;
+    width: auto;
 }
 // nav
 nav{
@@ -20,6 +21,7 @@ nav{
     }
     .searchBox{
         display: flex;
+        align-items: center;
         form{
             border-radius: 27px;
             padding: 16px;
@@ -29,6 +31,10 @@ nav{
             border:none;
             width:93%;
             background-color: transparent;
+            padding: 0;
+        }
+        img{
+            width:auto;
         }
     }
     }

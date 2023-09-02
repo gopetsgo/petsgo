@@ -1,46 +1,53 @@
 *{
     font-family:'PingFang TC';
 }
-p{
+.location p{
     line-height: 1.75;
 }
+.location img{
+    width: auto;
+}
 // general 
-.df{
+.location .df{
     display: flex;
 }
-.m0-a{
+.location .m0-a{
     margin: 0 auto;
 }
-.orange{
+.location .m-0{
+    margin: 0;
+}
+.location .orange{
     background-color: #F26835;
 }
-.pink{
+.location .pink{
     background-color: #F9A5A5;
 }
-.yellow{
+.location .yellow{
     background-color: #F2DA5E;
 }
-.tiffanny{
+.location .tiffanny{
     background-color: #9AD9C2;
 }
-.white{
+.location .white{
     color: #fff;
 }
 //button
-.button{
+.location .button{
     padding: 16px 0;
     font-size: 24px;
     width: 366px;
     border-radius: 32px;
     background-color: #F26835;
     text-align: center;
+    border:none;
 }
 //background circle
-.background{
+.location .background{
     overflow: hidden;
     position: relative;
 }
-.circle{
+.location .circle{
     width:1115px;
     height:1115px;
     border-radius: 100%;
@@ -50,7 +57,7 @@ p{
     top: -214px;
     right: -200px;
 }
-.cloud1{
+.location .cloud1{
     width:838px;
     height:838px;
     border-radius: 100%;
@@ -60,7 +67,7 @@ p{
     top: 400px;
     left: -700px;
 }
-.cloud2{
+.location .cloud2{
     width:838px;
     height:838px;
     border-radius: 100%;
@@ -72,7 +79,7 @@ p{
 }
 //background cloud
 //header
-header{
+.location header{
     max-width: 1296px;
     margin-bottom: 69px;
     .basicInfo{
@@ -100,7 +107,7 @@ header{
         }
     }
 }
-.description{
+.location .description{
     justify-content: space-between;
     .text{
         padding: 36px;
@@ -133,7 +140,7 @@ header{
 }
 }
 //triangleL
-.triangleL{
+.location .triangleL{
 width: 0;
 height: 0;
 border-style: solid;
@@ -142,7 +149,7 @@ border-color: transparent transparent #FFF3B4 transparent;
 margin-top: 72px;
 }
 //main
-.details{
+.location .details{
     background-color: #FFF3B4;
     border-radius: 0px 400px;
     .wrapper{
@@ -244,7 +251,7 @@ margin-top: 72px;
     }
 }
 //recommendPlace
-.recommendPlace{
+.location .recommendPlace{
     max-width: 1296px;
     padding: 66px 0;
     h3{
@@ -273,7 +280,7 @@ margin-top: 72px;
     }
 }
 //newActivity
-.newActivity{
+.location .newActivity{
     max-width: 1296px;
     margin-bottom: 116px;
     h3{
