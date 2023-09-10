@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('./layout/nav'); -%>
+    <div class="eventNavbar">
+        <nav>
+            <ul class="df lsn">
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="pd-0-15 bgclr-F26835 clr-fff">1.必要資訊</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">2.設定標籤</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">3.活動簡介</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">4.頁面預覽</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">5.完成開團</div></a></li>          
+            </ul>
+        </nav>
+    </div> 
+    <div class="eventSlogan">
+        <h1>五個步驟，讓您快速開團</h1>
+        <p>首先設定必要的資訊</p>
+    </div>
+    <div class="formContainer">
+        <form>
+            <div class="df aic mb-24">
+                <label>活動名稱</label>
+                <input type="text" placeholder="輸入店家、景點名稱" class="borderBox">
+            </div>
+            <div class="df aic mb-24">
+                <div class="df aic mr-24">
+                    <label>活動日期</label>
+                    <div class="df aic ">
+                        <input type="text" placeholder="選擇日期" class="borderBox">
+                    </div>
+                </div>
+                <div class="df aic flex-glow">
+                    <label>開始時間</label>
+                    <input type="text" placeholder="選擇時間" class="borderBox">
+                </div>
+            </div>
+            <div class="df aic mb-24">
+                <div class="df aic mr-24">
+                    <label>活動縣市</label>
+                    <div class="df aic">
+                        <input type="text" placeholder="必填" class="borderBox">
+                    </div>
+                </div>
+                <div class="df aic mr-24">
+                    <label>活動地區</label>
+                    <div class="df aic">
+                        <input type="text" placeholder="必填" class="borderBox">
+                    </div>
+                </div>
+            </div>
+            <div class="df aic mb-24">
+                <label>地點地址</label>
+                <input type="text" placeholder="輸入活動地址" class="borderBox w-50">
+            </div>
+            <div class="df aic mb-24">
+                    <label>參考店家</label>
+                    <input type="text" placeholder="輸入活動地點網站" class="borderBox w-50">
+            </div>
+            <hr class="w-100">
+            <div class="df jcsb">
+            <div>
+                <span>付費方式</span><br>
+                <input type="text" placeholder="各付各的" class="borderBox">
+            </div>
+                        <div>
+                <span>每人費用(預計)</span><br>
+                <input type="text" placeholder="輸入金額" class="borderBox">
+            </div>
+                        <div>
+                <span>人數上限</span><br>
+                <input type="text" placeholder="輸入數量" class="borderBox">
+            </div>
+                        <div>
+                <span>毛孩數上限</span><br>
+                <input type="text" placeholder="輸入數量" class="borderBox">
+            </div>
+        </div>
+        </form>
+        <br>
+        <div class="df jcsb">
+            <a href="#" class="btn btn-gray btn-px18">取消</a>
+            <a href="#" class="btn btn-orange">下一步</a>
+        </div>      
+    </div>
+    <%- include('./layout/callToAction'); -%>
+    <%- include('./layout/footer'); -%>
+    
+</body>
+</html>
