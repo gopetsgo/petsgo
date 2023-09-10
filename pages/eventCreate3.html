@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('./layout/nav'); -%>
+    <div class="eventNavbar">
+        <nav>
+            <ul class="df lsn">
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">1.必要資訊</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">2.設定標籤</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="pd-0-15 bgclr-F26835 clr-fff">3.活動簡介</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">4.頁面預覽</div></a></li>
+                <li class="pos-relative"><a href="#" class="db pd-0-15 lh-60"><div class="clr-000">5.完成開團</div></a></li>          
+            </ul>
+        </nav>
+    </div> 
+    <div class="eventSlogan">
+        <h1>快要完成囉</h1>
+        <p>有明確的內容簡介，團友們將可以更瞭解您的活動內容，您也可以選擇晚點再添加</p>
+    </div>
+    <div class="formContainer">
+        <form>
+            <input type="text" placeholder="您可以考慮： 1. 開團的主要目的？ 2. 誰適合這個揪團？ 3. 更多詳細資料" class="description mb-24">
+            <div class="df jcsb mb-24">
+                <div class="df aic mr-24">
+                    <label>上傳圖片</label>
+                    <input type="text" placeholder="上傳" class="borderBox">
+                </div>
+                <div class="df aic">
+                    <label>詢問 ChatGPT</label>
+                </div>
+            </div>
+        </form>
+        <br>
+        <div class="df jcsb">
+            <a href="#" class="btn btn-gray">上一步</a>
+            <a href="#" class="btn btn-orange">下一步</a>
+        </div>      
+    </div>
+
+    <%- include('./layout/callToAction'); -%>
+    <%- include('./layout/footer'); -%>
+    
+</body>
+</html>
